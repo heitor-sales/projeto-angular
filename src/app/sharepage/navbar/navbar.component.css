@@ -1,0 +1,55 @@
+  /* .nav-link:focus {
+    color: white;
+  } */
+
+  .bg-black{
+    color: black !important;
+  }
+
+  /* .nav-link .link-active {
+    color: white !important;
+  } */
+
+  .nav-link{
+    color: #999;
+  }
+
+  .nav-link:hover{
+    color: #ccc;
+  }
+
+  .form-control {
+    background-color: #fff;
+    width: 400px !important;
+
+  }
+
+/* logo/home */
+
+  .navbar-brand {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+}
+
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.login {
+    font-size: 2em;
+    color: white;
+  }
+
+.carrinho{
+    font-size: 2em;
+    color: white;
+}
+
+.form-check-input{
+  margin-left: 1px !important;
+}
+
+.form-check-label{
+  margin-left: 20px !important;
+}
