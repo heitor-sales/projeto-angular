@@ -1,0 +1,106 @@
+/* .card {
+    height: 300px;
+    max-width: 200px;
+  } */
+  
+  /* .card img {
+    max-width: 100%;
+    height: auto;
+  } */
+
+h4 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* .background {
+  margin-top: 50px;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+} */
+
+.card-link{
+  text-decoration: none;
+}
+
+.title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.custom-btn-primary {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.custom-btn-lightblue {
+  background-color: #5bc0de;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* .heart-link {
+  margin-left: 50px;
+  font-size: 25px;
+} */
+
+/* .card-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.card .position-relative {
+  position: relative;
+} */
+
+.heart-icon {
+  color: #ccc;
+  border:none;
+  background: transparent;
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+/* .heart-icon:active {
+  color: #5bc0de;
+} */
+
+.card .position-relative:hover .heart-icon {
+  opacity: 1;
+}
+
+.all{
+  margin-left: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.heart-icon:focus {
+  color:#5bc0de;
+}

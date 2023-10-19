@@ -2,9 +2,9 @@
     color: white;
   } */
 
-  .bg-black{
+  /* .bg-black{
     color: black !important;
-  }
+  } */
 
   /* .nav-link .link-active {
     color: white !important;
@@ -23,8 +23,6 @@
     width: 400px !important;
 
   }
-
-/* logo/home */
 
   .navbar-brand {
     font-family: "Poppins", sans-serif;
@@ -52,4 +50,36 @@
 
 .form-check-label{
   margin-left: 20px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cart-count {
+  text-decoration: unset;
+  background-color: #5bc0de;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.custom {
+  border-color: white;
+  color: white;
+}
+
+.custom:hover {
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+  color: white;
+}
+
+.busca::placeholder {
+  color: #aaa;
+}
+
+.busca:focus {
+  color: black;
 }
