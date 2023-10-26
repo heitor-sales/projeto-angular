@@ -1,24 +1,7 @@
-/* .card {
-    height: 300px;
-    max-width: 200px;
-  } */
-  
-  /* .card img {
-    max-width: 100%;
-    height: auto;
-  } */
-
 h4 {
   margin-top: 50px;
   margin-bottom: 20px;
 }
-
-/* .background {
-  margin-top: 50px;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
-} */
 
 .card-link{
   text-decoration: none;
@@ -61,20 +44,6 @@ h4 {
   font-size: 16px;
 }
 
-/* .heart-link {
-  margin-left: 50px;
-  font-size: 25px;
-} */
-
-/* .card-container {
-  position: relative;
-  overflow: hidden;
-}
-
-.card .position-relative {
-  position: relative;
-} */
-
 .heart-icon {
   color: #ccc;
   border:none;
@@ -86,10 +55,6 @@ h4 {
   opacity: 0;
   transition: opacity 0.2s ease;
 }
-
-/* .heart-icon:active {
-  color: #5bc0de;
-} */
 
 .card .position-relative:hover .heart-icon {
   opacity: 1;
@@ -103,4 +68,32 @@ h4 {
 
 .heart-icon:focus {
   color:#5bc0de;
+}
+
+.quality-chart {
+  display: flex;
+  align-items: center;
+}
+
+.quality-bar {
+  height: 20px;
+  width: 100px;
+  margin-right: 10px;
+  background-color: #ccc;
+}
+
+.red {
+  background-color: rgba(255, 0, 0, 0.1)
+}
+
+.yellow {
+  background-color:  rgba(255, 255, 0, 0.1)
+}
+
+.green {
+  background-color: #00FF00;
+}
+
+.level {
+  font-weight: bold;
 }

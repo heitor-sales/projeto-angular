@@ -14,3 +14,7 @@ body {
     background-color: #f5f5f5;
 }
 
+.custom-toast {
+    background-color: #ddd;
+    color: black;
+}
